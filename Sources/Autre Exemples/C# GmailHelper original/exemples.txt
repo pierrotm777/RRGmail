@@ -1,0 +1,60 @@
+I have created a gmail class library that provides some tools for getting gmail atom feeds and for sending emails through gmail using the .Net framework. These tools are not very complicated, but they are simple to use and should save a user some time if they want to integrate an application with gmail.
+
+GmailMessage
+Sending email using the System.Web.Mail namespace is very simple, but there is not a straight forward way of sending email using a secure connection or on different ports, which is required by gmail. Because of these drawbacks I created the GmailMessage object that inherits from the MailMessage object, all you have to do is set up the message object and call its send message.
+
+I also added a couple of static methods that allow you to send a email through your gmail account in as little as one line of code.
+Below are some examples of it's usage.
+
+ 
+   //Send a message with one line of code 
+   RC.Gmail.GmailMessage.SendFromGmail("username", "password", "toAddress@gmail.com", "subject", "message body"); 
+ 
+   //Send a message with one line of code with a MailMessage object 
+   RC.Gmail.GmailMessage.SendMailMessageFromGmail("username", "password", mailMessageObject); 
+ 
+   //Use the GmailMessage object to create and send your message 
+   RC.Gmail.GmailMessage gmailMsg = new RC.Gmail.GmailMessage("username", "password"); 
+   gmailMsg.To = "RCcode@gmail.com"; 
+   gmailMsg.From = "fromAddress@gmail.com"; 
+   gmailMsg.Subject = "C# Test Message"; 
+   gmailMsg.Body = "Test body"; 
+ 
+   MailAttachment attachment = new MailAttachment(@"c:\testfile.txt"); 
+   gmailMsg.Attachments.Add(attachment); 
+ 
+   gmailMsg.Send();
+ 
+
+
+GmailAtomFeed
+The GmailAtomFeed class provides a simple object layer for programmatic access to gmails atom feed. In just a couple lines of code the feed will be retreived from gmail and parsed. After that the entries can be accessed through an object layer AtomFeedEntryCollection, plus access to the raw feed and the feeds XmlDocument is also available.
+
+Below are some examples of it's usage.
+
+ 
+   // Create the object and get the feed 
+   RC.Gmail.GmailAtomFeed gmailFeed = new RC.Gmail.GmailAtomFeed("username", "password"); 
+   gmailFeed.GetFeed(); 
+ 
+   // Access the feeds XmlDocument 
+   XmlDocument myXml = gmailFeed.FeedXml 
+ 
+   // Access the raw feed as a string 
+   string feedString = gmailFeed.RawFeed 
+ 
+   // Access the feed through the object 
+   string feedTitle = gmailFeed.Title; 
+   string feedTagline = gmailFeed.Message; 
+   DateTime feedModified = gmailFeed.Modified; 
+ 
+   //Get the entries 
+   for(int i = 0; i &lt; gmailFeed.FeedEntries.Count; i++) { 
+      entryAuthorName = gmailFeed.FeedEntries[i].FromName; 
+      entryAuthorEmail = gmailFeed.FeedEntries[i].FromEmail; 
+      entryTitle = gmailFeed.FeedEntries[i].Subject; 
+      entrySummary = gmailFeed.FeedEntries[i].Summary; 
+      entryIssuedDate = gmailFeed.FeedEntries[i].Received; 
+      entryId = gmailFeed.FeedEntries[i].Id; 
+   }
+ 

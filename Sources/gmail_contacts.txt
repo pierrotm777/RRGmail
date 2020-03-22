@@ -1,0 +1,88 @@
+#Region "GoogleContact API"
+    'First, a small class to hold the data
+    ''' <summary>
+    ''' class to hold the data from our Google contacts
+    ''' </summary>
+    Public Class GoogleContacts
+        Public Property title() As String
+            Get
+                Return m_title
+            End Get
+            Set(ByVal value As String)
+                m_title = Value
+            End Set
+        End Property
+        Private m_title As String
+        Public Property email() As String
+            Get
+                Return m_email
+            End Get
+            Set(ByVal value As String)
+                m_email = Value
+            End Set
+        End Property
+        Private m_email As String
+        Public Property im() As String
+            Get
+                Return m_im
+            End Get
+            Set(ByVal value As String)
+                m_im = Value
+            End Set
+        End Property
+        Private m_im As String
+    End Class
+
+    'Next method for retrieving the contacts
+    ''' <summary>
+    ''' method for retrieving all contacts in a persons Google Mail address book
+    ''' </summary>
+    ''' <param name="appName">the application making the request</param>
+    ''' <param name="un">username of the account</param>
+    ''' <param name="pwd">password of the account</param>
+    ''' <returns></returns>
+    Public Shared Function GetGoogleContacts(ByVal appName As String, ByVal un As String, ByVal pwd As String) As List(Of GoogleContacts)
+        'list to hold all contacts returned
+        Dim contactList As New List(Of GoogleContacts)()
+
+        'create an instance of the request settings
+        Dim settings As New RequestSettings(appName, un, pwd)
+        'set AutoPaging to true so we get all the contacts
+        settings.AutoPaging = True
+
+        'now send ouor request for contacts
+        Dim request As New ContactsRequest(settings)
+
+        'retrieve the contacts returned
+        Dim feed As Feed(Of Contact) = request.GetContacts()
+
+        'here we will loop through all the contacts returned and add them to our list
+        For Each contact As Contact In feed.Entries
+            Dim c As New GoogleContacts()
+            c.title = If(String.IsNullOrEmpty(contact.Title), "Name Not Present", contact.Title)
+            c.email = contact.Emails(0).Address
+            c.im = If(contact.IMs.Count = 0, "IM Address Not Present", contact.IMs(0).Address)
+
+            contactList.Add(c)
+        Next
+        Return contactList
+    End Function
+
+    'Sample usage
+    Private Shared Sub Main(ByVal args As String())
+        Dim list As List(Of GoogleContacts) = GetGoogleContacts("GoogleTest", "pierrotm777@gmail.com", "*marley#marley*")
+
+        'Console.WriteLine("Total Contacts Retrieved: " & list.Count())
+        'Console.WriteLine("************************************************")
+        'Console.WriteLine()
+        MsgBox(list.Count(), vbOKOnly, "")
+
+        'For Each contact As GoogleContacts In list
+        '    Console.WriteLine(contact.title)
+        '    Console.WriteLine(contact.email)
+        '    Console.WriteLine(contact.im)
+        '    Console.WriteLine()
+        'Next
+        'Console.ReadLine()
+    End Sub
+#End Region

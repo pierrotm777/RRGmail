@@ -1,0 +1,27 @@
+'Transforming the Atom feed XML returned from Gmail to HTML and displaying the result in your web browser - makes the previous example somewhat more useful.
+'One way is to create a small transformation function (using a XSLT document like that provided by manalang.com) say in C#, and save it as xml.cs ...
+
+' xml.cs
+Imports System
+Imports System.IO
+Imports System.Xml
+Imports System.Xml.Xsl
+
+Public Class XML
+  ' an atom 0.3 transformation style sheet
+  Public Shared AtomXsl As String = "http://manalang.com/wp-content/atom03.xsl"
+  ' transform xml using a transformation document
+  Public Shared Function Transform(ByVal xmlDoc As String, ByVal xslDoc As String) As String
+    Dim doc As New XmlDocument()
+    doc.LoadXml(xmlDoc)
+    ' transform
+    Dim transform As New XslTransform()
+    transform.Load(xslDoc)
+    Dim writer As New StringWriter()
+    transform.Transform(doc, Nothing, writer, Nothing)
+    Return writer.ToString()
+  End Function
+End Class
+
+'Then replace the print(feedAsXML) line at the bottom of gmail.vb with the following code ...
+

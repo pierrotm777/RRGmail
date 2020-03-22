@@ -1,0 +1,93 @@
+Building documentation...
+Initializing...
+Merging XML documentation...
+Building file mapping...
+Loading XSLT files...
+    namespace.xslt
+    namespacehierarchy.xslt
+    type.xslt
+    typehierarchy.xslt
+    allmembers.xslt
+    individualmembers.xslt
+    event.xslt
+    member.xslt
+    memberoverload.xslt
+    property.xslt
+    field.xslt
+    htmlcontents.xslt
+Generating HTML pages...
+RC.Gmail.html
+RC.GmailHierarchy.html
+RC.Gmail.GmailAtomFeed.html
+RC.Gmail.GmailAtomFeedMembers.html
+RC.Gmail.GmailAtomFeedConstructor.html
+RC.Gmail.GmailAtomFeedProperties.html
+RC.Gmail.GmailAtomFeed.FeedEntries.html
+RC.Gmail.GmailAtomFeed.FeedLabel.html
+RC.Gmail.GmailAtomFeed.FeedUrl.html
+RC.Gmail.GmailAtomFeed.FeedXml.html
+RC.Gmail.GmailAtomFeed.GmailPassword.html
+RC.Gmail.GmailAtomFeed.GmailUserName.html
+RC.Gmail.GmailAtomFeed.Message.html
+RC.Gmail.GmailAtomFeed.Modified.html
+RC.Gmail.GmailAtomFeed.RawFeed.html
+RC.Gmail.GmailAtomFeed.Title.html
+RC.Gmail.GmailAtomFeedMethods.html
+RC.Gmail.GmailAtomFeed.GetFeed.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryMembers.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryConstructor.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryProperties.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.FromEmail.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.FromName.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.Id.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.Received.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.Subject.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntry.Summary.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollectionMembers.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollectionConstructor.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollectionProperties.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Item.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollectionMethods.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Add.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Clear.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Contains.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.IndexOf.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Insert.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.Remove.html
+RC.Gmail.GmailAtomFeed.AtomFeedEntryCollection.RemoveAt.html
+RC.Gmail.GmailMessage.html
+RC.Gmail.GmailMessageMembers.html
+RC.Gmail.GmailMessageConstructor.html
+RC.Gmail.GmailMessageProperties.html
+RC.Gmail.GmailMessage.GmailPassword.html
+RC.Gmail.GmailMessage.GmailServer.html
+RC.Gmail.GmailMessage.GmailServerPort.html
+RC.Gmail.GmailMessage.GmailUserName.html
+RC.Gmail.GmailMessageMethods.html
+RC.Gmail.GmailMessage.Send.html
+RC.Gmail.GmailMessage.SendFromGmail.html
+RC.Gmail.GmailMessage.SendMailMessageFromGmail.html
+Generating HTML content file...
+transform the HHC contents file into html
+Compiling HTML Help file...
+Compiling Html Help file
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Documents and Settings\Administrator\Desktop\GmailHelper\doc\ndoc_msdn_temp\Gmail Helper Class Library.chm
+
+
+Compile time: 0 minutes, 0 seconds
+55	Topics
+333	Local links
+0	Internet links
+5	Graphics
+
+
+Created c:\Documents and Settings\Administrator\Desktop\GmailHelper\doc\ndoc_msdn_temp\Gmail Helper Class Library.chm, 58,863 bytes
+Compression decreased file by 236,743 bytes.
+
+Html Help compile complete
+Writing documentation to output path
+Done.

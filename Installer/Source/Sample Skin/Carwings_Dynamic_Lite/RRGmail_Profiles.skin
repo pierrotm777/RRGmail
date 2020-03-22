@@ -1,0 +1,24 @@
+RideRunner Skin
+RRScreen RRGMAIL
+rrgmail_providers_transparent.png,rrgmail_providers_transparent.png,rrgmail_providers_transparent.png,rrgmail_providers_transparent.png
+
+IDL,5
+
+/POSX=395
+/POSY=260
+
+/EFFECTIN=17
+/EFFECTOUT=18
+
+[Buttons]
+L,110,9,126,30,255,128,0,18,"Arial","=Ok","CENTER",,"DS=2,2,0,0,0"
+B,5,5,351,34,"ESC",
+
+[Sliders]
+S,315,43,40,210,315,4,40,210,V,0,"EQ.png",18,"CLSLIDER",
+
+[ List Definitions ]
+SC,8,49,295,199,255,255,255,01,030,030,64,64,64,255,128,0,TRUE,18,"Arial:B"
+IL,CL,TRANSPARENT.BMP,SEL.BMP,END.BMP,0,50,60
+ 
+END

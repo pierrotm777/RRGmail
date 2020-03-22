@@ -1,0 +1,7 @@
+ 0
+LSTfree||   ***@free.fr,password
+ICO$SKINPATH$Indicators\free_01.png
+LSTgmail||   ***@gmail.com,password
+ICO$SKINPATH$Indicators\gmail_01.png
+LSThotmail||   ***@hotmail.fr,password
+ICO$SKINPATH$Indicators\hotmail_01.png

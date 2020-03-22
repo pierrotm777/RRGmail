@@ -1,0 +1,23 @@
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.NET Test Application.exe
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.NET Test Application.pdb
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.dll
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.pdb
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.xml
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\ResolveAssemblyReference.cache
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.TestApplication.TestForm.resources
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.NET Test Application.exe
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.NET Test Application.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\C# OpenPopTest\obj\Debug\OpenPop.NET Test Application.exe
+C:\tmp\VB.NET-2010\VB.NET RRGmail\C# OpenPopTest\obj\Debug\OpenPop.NET Test Application.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\OpenPop.NET Test Application.exe
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\OpenPop.NET Test Application.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\bin\Debug\OpenPop.NET Test Application.exe
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\bin\Debug\OpenPop.NET Test Application.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\bin\Debug\OpenPop.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\bin\Debug\OpenPop.xml
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\ResolveAssemblyReference.cache
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\OpenPop.TestApplication.TestForm.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\OpenPopTest\C# OpenPopTest\obj\Debug\GenerateResource-ResGen.write.1.tlog

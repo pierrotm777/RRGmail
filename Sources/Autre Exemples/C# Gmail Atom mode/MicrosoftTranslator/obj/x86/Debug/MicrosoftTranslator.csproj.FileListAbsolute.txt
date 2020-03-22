@@ -1,0 +1,24 @@
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.pdb
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.Form1.resources
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.Properties.Resources.resources
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.csproj.GenerateResource.Cache
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.exe
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.pdb
+C:\tmp\C#\MicrosoftTranslator\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe.config
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\obj\x86\Debug\GmailReader.Form1.resources
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\obj\x86\Debug\GmailReader.Properties.Resources.resources
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.csproj.GenerateResource.Cache
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe.config
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.pdb
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.exe
+C:\tmp\C#\MicrosoftTranslator_2\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.pdb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe.config
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.exe
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.pdb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.exe
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\bin\Debug\MicrosoftTranslator.pdb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\obj\x86\Debug\GmailReader.Form1.resources
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\obj\x86\Debug\GmailReader.Properties.Resources.resources
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\Autre Exemples\C# Gmail Atom mode\MicrosoftTranslator\obj\x86\Debug\MicrosoftTranslator.csproj.GenerateResource.Cache

@@ -1,0 +1,7 @@
+ 0
+LSTsmtp.free.fr,25,pop.free.fr,110,false||   free
+ICO$SKINPATH$Indicators\free_01.png
+LSTsmtp.gmail.com,587,pop.gmail.com,995,true||   gmail
+ICO$SKINPATH$Indicators\gmail_01.png
+LSTsmtp.live.com,587,pop3.live.com,995,true||   hotmail
+ICO$SKINPATH$Indicators\hotmail_01.png

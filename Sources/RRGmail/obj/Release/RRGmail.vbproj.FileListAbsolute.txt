@@ -1,0 +1,36 @@
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\ResolveAssemblyReference.cache
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\RRGmail.Resources.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\RRGmail.StringFile.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\RRGmail.StringFile.fr-FR.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\GenerateResource-ResGen.read.6.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\GenerateResource.read.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\GenerateResource.write.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\RRGmail.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\RRGmail.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\fr-FR\RRGmail.resources.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\RRGmail.tlb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\fr-FR\RRGmail.resources.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\RRGmail.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\obj\Release\RRGmail.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\Google.GData.Client.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\Google.GData.Contacts.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\Google.GData.Extensions.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\Newtonsoft.Json.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmail\RRGmail\bin\OpenPop.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\obj\Release\RRGmail.vbprojResolveAssemblyReference.cache
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\obj\Release\RRGmail.Resources.resources
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\obj\Release\RRGmail.vbproj.GenerateResource.Cache
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\obj\Release\RRGmail.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\obj\Release\RRGmail.pdb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\RRGmail.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\RRGmail.pdb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\RRGmail.tlb
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\Google.GData.Client.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\Google.GData.Contacts.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\Google.GData.Extensions.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\OpenPop.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\Google.GData.AccessControl.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\Google.GData.Spreadsheets.dll
+C:\tmp\VB.NET-2010\VB.NET Plugin RRGmail\Sources\RRGmail\bin\ImapX.dll

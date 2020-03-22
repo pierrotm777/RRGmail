@@ -1,0 +1,11 @@
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\bin\Debug\GMailNotifier.exe
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\bin\Debug\GMailNotifier.pdb
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\bin\Debug\GMailNotifier.xml
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\ResolveAssemblyReference.cache
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.Form1.resources
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.Resources.resources
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.vbproj.GenerateResource.Cache
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.exe
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.xml
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.pdb
+D:\Windows Applications\Gmail\GMailNotifier\GMailNotifier\obj\Debug\GMailNotifier.LoginForm1.resources

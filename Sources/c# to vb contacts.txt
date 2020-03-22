@@ -1,0 +1,112 @@
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Web
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+Imports Google.GData.Client
+Imports Google.GData.Extensions
+Imports Google.GData.Contacts
+Imports Google.Contacts
+Imports System.Collections
+Imports System.Data
+Imports System.Xml
+Imports System.Text
+Imports System.Net
+Imports System.Net.Mail
+
+mailid = txtid.Text
+pwd = txtpassword.Text
+
+Dim rs As New RequestSettings("ApplicationName", ""pierrotm777@gmail.com", "*marley#marley*")
+'Application Name,Username,password
+Dim cr As New ContactsRequest(rs)
+'Request all contacts
+rs.AutoPaging = True
+'Allow autopaging
+Dim f As Feed(Of Contact) = cr.GetContacts()
+'Get all contacts
+Dim dt As New DataTable()
+
+Dim dr As DataRow
+dt.Columns.Add("Name")
+dt.Columns.Add("Home Emails")
+dt.Columns.Add("Work Emails")
+dt.Columns.Add("Other Emails")
+dt.Columns.Add("Home Phone")
+dt.Columns.Add("Work Phone")
+dt.Columns.Add("Other")
+dt.Columns.Add("URL")
+
+'Get All Contacts
+For Each ex As Contact In f.Entries
+	dr = dt.NewRow()
+	Dim n As Name = ex.Name
+	dr(0) = n.FullName
+	Dim homeemail As String = ""
+	Dim workemail As String = ""
+	Dim otheremail As String = ""
+	Dim homephone As String = ""
+	Dim workphone As String = ""
+	Dim otherphone As String = ""
+	For Each email As EMail In ex.Emails
+		If email.Home = True Then
+			If homeemail.Equals("") Then
+				homeemail += email.Address
+			Else
+				homeemail += ","
+				homeemail += email.Address
+			End If
+		End If
+		If email.Work = True Then
+			If workemail.Equals("") Then
+				workemail += email.Address
+			Else
+				workemail += ","
+				workemail += email.Address
+			End If
+		Else
+			If otheremail.Equals("") Then
+				otheremail += email.Address
+			Else
+				otheremail += ","
+				otheremail += email.Address
+			End If
+		End If
+		'dr[1] = homeemail;
+		'dr[2] = workemail;
+		dr(3) = otheremail
+	Next
+
+	'Extract Phone Numbers
+	For Each ph As PhoneNumber In ex.Phonenumbers
+		If ph.Home = True Then
+			If homephone.Equals("") Then
+				homephone += ph.Value
+			Else
+				homephone += ","
+				homephone += ph.Value
+			End If
+		ElseIf ph.Work = True Then
+			If workphone.Equals("") Then
+				workphone += ph.Value
+			Else
+				workphone += ","
+				workphone += ph.Value
+			End If
+		Else
+			If otherphone.Equals("") Then
+				otherphone += ph.Value
+			Else
+				otherphone += ","
+				otherphone += ph.Value
+			End If
+		End If
+		dr(4) = homephone
+		dr(5) = workphone
+		dr(6) = otherphone
+	Next
+	dt.Rows.Add(dr)
+Next
+
+GridView1.DataSource = dt
+GridView1.DataBind()

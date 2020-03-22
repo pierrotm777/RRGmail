@@ -1,0 +1,5 @@
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPop\bin\Debug\OpenPop.dll
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPop\bin\Debug\OpenPop.pdb
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPop\obj\Debug\ResolveAssemblyReference.cache
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPop\obj\Debug\OpenPop.dll
+C:\tmp\C#\OpenPop.NET 2.0.4\source\OpenPop\obj\Debug\OpenPop.pdb

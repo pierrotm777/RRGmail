@@ -1,0 +1,23 @@
+RideRunner Skin
+RRScreen rrgmaillist
+rrgmail_list_Off.png,rrgmail_list_Off.png,rrgmail_list_On.png,rrgmail_list_off.png
+
+[Labels]
+L,116,244,32,39,255,255,255,30,"Webdings:B","=6","CENTER",,"DS=3,3,0,0,0"
+L,37,244,32,39,255,255,255,30,"Webdings:B","=5","CENTER",,"DS=3,3,0,0,0"
+L,214,29,354,24,255,255,255,16,"arial:b","=$RRGMAILPATHFILE$","LEFT",,"DS=2,2,0,0,0"
+L,35,29,172,24,255,255,255,16,"arial:b","=Gmail Path File :","LEFT",,"DS=2,2,0,0,0"
+L,230,237,96,55,255,255,255,16,"arial:b","=Attach File","WRAP-CENTER",,"DS=2,2,0,0,0"
+
+[Buttons]
+B,477,237,122,56,"ESC",
+B,14,227,77,70,"UP",
+B,95,229,77,70,"DOWN",
+B,201,231,150,66,"SETVARBYCODE;LISTTEXT;LISTTEXT||SETVAR;RR_GMAIL_ATTACHFILE;$RRGMAILPATHFILE$$LISTTEXT$||ESC"
+
+[List]
+SD,00,00,-1,-1,"$RRGMAILPATHFILE$","*.*",True
+S,35,57,534,163,255,255,255,255,255,255,064,064,064,255,128,000,TRUE,18,"Arial:B"
+IL,DL,TRANSPARENT.BMP,SEL.BMP,END.BMP,0,50,60
+ 
+END

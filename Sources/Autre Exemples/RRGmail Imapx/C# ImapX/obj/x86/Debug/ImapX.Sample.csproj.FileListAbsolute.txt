@@ -1,0 +1,15 @@
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\bin\Debug\ImapX.Sample.exe.config
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.FrmConsole.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.FrmError.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.FrmMain.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.FolderBox.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.FrmConnect.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.InputBox.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.Properties.Resources.resources
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.csproj.GenerateResource.Cache
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\bin\Debug\ImapX.Sample.exe
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\bin\Debug\ImapX.Sample.pdb
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\bin\Debug\ImapX.dll
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.csprojResolveAssemblyReference.cache
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.exe
+C:\Program Files\Ride Runner\Plugins\RRGmail\Imap\obj\x86\Debug\ImapX.Sample.pdb

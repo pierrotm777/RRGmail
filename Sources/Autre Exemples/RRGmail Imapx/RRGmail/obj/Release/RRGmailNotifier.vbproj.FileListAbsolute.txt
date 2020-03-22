@@ -1,0 +1,17 @@
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\bin\RRGmailNotifier.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\bin\RRGmailNotifier.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\bin\fr-FR\RRGmailNotifier.resources.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\bin\RRGmailNotifier.tlb
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\ResolveAssemblyReference.cache
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.Resources.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.StringFile.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.StringFile.fr-FR.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\GenerateResource.read.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\GenerateResource.write.1.tlog
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\fr-FR\RRGmailNotifier.resources.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.dll
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.pdb
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\RRGmailNotifier.Form1.resources
+C:\tmp\VB.NET-2010\VB.NET RRGmailNotifier\RRGmailNotifier\obj\Release\GenerateResource-ResGen.read.6.tlog

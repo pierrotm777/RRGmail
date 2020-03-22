@@ -1,0 +1,20 @@
+RideRunner Skin
+RRScreen RRGMAIL
+rrgmail_newmail_off.png,rrgmail_newmail_off.png,rrgmail_newmail_off.png,rrgmail_newmail_off.png
+
+IDL,$RR_GMAIL_IDLE$
+
+/POSX=188
+/POSY=72
+
+/EFFECTIN=17
+/EFFECTOUT=18
+
+[Labels]
+L,43,96,338,44,255,0,0,20,"Arial:BI","=$RR_GMAIL_INFO$","CENTER",,"DS=3,3,0,0,0"
+
+[Indicator]
+B,15,10,385,139,"ESC",
+I,163,11,79,71,"RRGMAIL_COUNT",,,"Indicators\gmail_01.png"
+ 
+END

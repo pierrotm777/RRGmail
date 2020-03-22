@@ -1,0 +1,117 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>GmailAtomFeed Members</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Gmail Helper Class Library</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">GmailAtomFeed Members
+					</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>
+        <a href="RC.Gmail.GmailAtomFeed.html">GmailAtomFeed overview</a>
+      </p>
+      <h4 class="dtH4">Public Static (Shared) Properties</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><img src="static.gif" /><a href="RC.Gmail.GmailAtomFeed.FeedUrl.html">FeedUrl</a></td><td width="50%"> Base Url for the gmail atom feed, the default is "https://gmail.google.com/gmail/feed/atom" </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Constructors</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif" /><a href="RC.Gmail.GmailAtomFeedConstructor.html">GmailAtomFeed Constructor</a></td><td width="50%"> Constructor, creates the gmail atom feed object. <blockquote class="dtBlock"><b>Note</b>    Creating the object does not get the feed, the <code>GetFeed</code> method must be called to get the current feed. </blockquote>
+            </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Properties</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.FeedEntries.html">FeedEntries</a></td><td width="50%"> Collection containing the feeds entry objects </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.FeedLabel.html">FeedLabel</a></td><td width="50%"> The label to retreive the feeds from. To get the new inbox messages set this to <code>string.Empty</code>. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.FeedXml.html">FeedXml</a></td><td width="50%"> Returns the feed data retreived from gmail </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.GmailPassword.html">GmailPassword</a></td><td width="50%"> The password of the gmail account that the message will be sent through </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.GmailUserName.html">GmailUserName</a></td><td width="50%"> The username of the gmail account that the message will be sent through </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.Message.html">Message</a></td><td width="50%"> Returns the <code>/feed/tagline</code> property </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.Modified.html">Modified</a></td><td width="50%"> Returns the <code>/feed/modified</code> property </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.RawFeed.html">RawFeed</a></td><td width="50%"> Returns the feed data retreived from gmail </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="RC.Gmail.GmailAtomFeed.Title.html">Title</a></td><td width="50%"> Returns the <code>/feed/title</code> property </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassEqualsTopic.htm">Equals</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Determines whether the specified <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> is equal to the current <b>Object</b>.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="RC.Gmail.GmailAtomFeed.GetFeed.html">GetFeed</a></td><td width="50%"> Gets the current atom feed for the specified account and loads all properties and collections with the feed data. Any existing data will be replaced by the new feed. <blockquote class="dtBlock"><b>Note</b>    If the <code>FeedLabel</code> property equals <code>string.Empty</code> the feed for the inbox will be retreived. </blockquote>
+            </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassGetHashCodeTopic.htm">GetHashCode</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassGetTypeTopic.htm">GetType</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Gets the <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemTypeClassTopic.htm">Type</a> of the current instance.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassToStringTopic.htm">ToString</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Returns a <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassTopic.htm">String</a> that represents the current <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a>.
+      </td></tr></table>
+      </div>
+      <h4 class="dtH4">Protected Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassFinalizeTopic.htm">Finalize</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Allows an <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a> to attempt to free resources and perform other cleanup operations before the <b>Object</b> is reclaimed by garbage collection.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassMemberwiseCloneTopic.htm">MemberwiseClone</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Creates a shallow copy of the current <a href="ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassTopic.htm">Object</a>.
+      </td></tr></table>
+      </div>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="RC.Gmail.GmailAtomFeed.html">GmailAtomFeed Class</a> | <a href="RC.Gmail.html">RC.Gmail Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="GmailAtomFeed class">
+        </param>
+        <param name="Keyword" value="RC.Gmail.GmailAtomFeed class">
+        </param>
+        <param name="Keyword" value="GmailAtomFeed class, all members">
+        </param>
+      </object>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+								Syntax based on .NET Framework version 1.1.<br /></i>
+            </font>
+          </center>
+        </p>
+      </DIV>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="mailto:RCcode@Gmail.com?subject=Gmail%20Helper%20Class%20Library%20Documentation%20Feedback:%20GmailAtomFeed%20Members&#xD;&#xA;						">Send comments on this topic.</a>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
